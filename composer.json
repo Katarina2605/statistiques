@@ -1,0 +1,20 @@
+{
+    "name": "katarina2605/statistiques",
+    "description": "Librairie statistiques",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Katarina2605\\Statistiques\\": "src/"
+        }
+    },
+    "scripts": { "test": "vendor/bin/pest" },
+    "require-dev": {
+        "pestphp/pest": "^2.20"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
